@@ -1,20 +1,20 @@
-# cout »ç¿ë¹ý @ c++
+# cout ì‚¬ìš©ë²• @ c++
 
-## 1. K ÀÚ¸®±îÁö Ãâ·Â
-header => #include <iomanip>
+## 1. K ìžë¦¬ê¹Œì§€ ì¶œë ¥
+header => #include <iomanip><br />
 std::cout.setf(ios::showpoint);
 std::cout.precision(5);
 
-## 2. ¿Ã¸², ¹Ý¿Ã¸², ¹ö¸²
-header => #include <cmath>
+## 2. ì˜¬ë¦¼, ë°˜ì˜¬ë¦¼, ë²„ë¦¼
+<code>header => #include <cmath></code>
 
 
-### ¿Ã¸² 
-ceil(number)
+### ì˜¬ë¦¼ 
+<code>ceil(number)
     
-### ³»¸² 
-floor(number)
+### ë‚´ë¦¼ 
+<code>floor(number)
     
-### ¹Ý¿Ã¸² 
-floor(number + 0.5)
-floor(number + 0.5)
+### ë°˜ì˜¬ë¦¼ 
+<code>floor(number + 0.5)
+floor(number + 0.5)</code>
