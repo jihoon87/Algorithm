@@ -1,20 +1,28 @@
 # cout 사용법 @ c++
 
 ## 1. K 자리까지 출력
-header => #include <iomanip><br/>
-std::cout.setf(ios::showpoint);<br/>
-std::cout.precision(5);<br/>
-
+    <code>
+    #include <iomanip><br/>
+    std::cout.setf(ios::showpoint);<br/>
+    std::cout.precision(5);<br/>
+    </code>
 ## 2. 올림, 반올림, 버림
-<code>header => #include <cmath></code><br/>
+    <code>
+    header => #include <cmath><br/>
+    </code>
 
 
 ### 올림 
-<code>ceil(number)</code><br/>
+<code>
+    ceil(number)<br/>
+    </code>
     
 ### 내림 
-<code>floor(number)</code><br/>
+<code>
+    floor(number)<br/>
     
 ### 반올림 
-<code>floor(number + 0.5)<br/>
-floor(number + 0.5)</code><br/>
+<code>
+    floor(number + 0.5)<br/>
+    floor(number + 0.5)<br/>
+    </code>
