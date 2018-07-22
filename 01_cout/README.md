@@ -5,6 +5,14 @@
     #include <iomanip>;
     std::cout.setf(ios::showpoint);
     std::cout.precision(5);
+    
+> Example
+    double a = 5.55555;
+    std::cout.setf(ios::showpoint);
+    std::cout.precision(3);
+    std::cout<< a << std::cout;
+    
+    
 ## 2. 올림, 반올림, 버림
     #include <cmath>
 
