@@ -6,7 +6,7 @@
     std::cout.setf(ios::showpoint);
     std::cout.precision(5);
     
->Example
+>**Example**
 >   ```
 >   double a = 5.55555;
 >   std::cout.setf(ios::showpoint);
