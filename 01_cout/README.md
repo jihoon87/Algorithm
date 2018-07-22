@@ -2,9 +2,9 @@
 
 ## 1. K 자리까지 출력
 <code>
-#include <iomanip><br/>
-std::cout.setf(ios::showpoint);<br/>
-std::cout.precision(5);<br/>
+#include <iomanip>;
+std::cout.setf(ios::showpoint);
+std::cout.precision(5);
 </code>
 ## 2. 올림, 반올림, 버림
 <code>
