@@ -6,22 +6,14 @@
     std::cout.setf(ios::showpoint);
     std::cout.precision(5);
 ## 2. 올림, 반올림, 버림
-<code>
-header => #include <cmath><br/>
-</code>
-
+    #include <cmath>
 
 ### 올림 
-<code>
-ceil(number)<br/>
-</code>
+    ceil(number)
     
 ### 내림 
-<code>
-floor(number)<br/>
+    floor(number)
     
 ### 반올림 
-<code>
-floor(number + 0.5)<br/>
-floor(number + 0.5)<br/>
-</code>
+    floor(number + 0.5)
+    floor(number + 0.5)
