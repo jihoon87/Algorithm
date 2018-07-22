@@ -1,11 +1,10 @@
 # cout 사용법 @ c++
 
 ## 1. K 자리까지 출력
-<p><code>
-#include <iomanip>;
-std::cout.setf(ios::showpoint);
-std::cout.precision(5);
-</code></p>
+
+    #include <iomanip>;
+    std::cout.setf(ios::showpoint);
+    std::cout.precision(5);
 ## 2. 올림, 반올림, 버림
 <code>
 header => #include <cmath><br/>
