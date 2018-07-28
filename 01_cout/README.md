@@ -9,11 +9,11 @@
 _cout<<fixed_ 해제하려면 
     cout.unsetf(ios::fixed);
 >**Example**
->   '''
+>   ₩₩₩
 >   double a = 5.5555;
 >   std::cout<<fixed;
 >   std::cout.precision(2);
->   '''
+>   ₩₩₩
 
 
 ### 1.2 소수점 포함하여 k자리 만큼 출력
