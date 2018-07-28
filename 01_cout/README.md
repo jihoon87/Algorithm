@@ -1,10 +1,28 @@
-# cout 사용법 @ c++
+# cout 활용법
 
-## 1. K 자리까지 출력
+## 1. 소수점 출력
 
+### 1.1 소수점 k자리까지 출력
+    std::cout<<fixed;
+    std::cout.precision(k);
+    
+_cout<<fixed_ 해제하려면 
+    cout.unsetf(ios::fixed);
+>**Example**
+>   '''
+>   double a = 5.5555;
+>   std::cout<<fixed;
+>   std::cout.precision(2);
+>   '''
+
+
+### 1.2 소수점 포함하여 k자리 만큼 출력
+    std::cout.precision(k);
+
+### 1.3 소수점 포함하여 k자리 만큼 출력 + 소수점 이하 0으로 출력
     #include <iomanip>;
     std::cout.setf(ios::showpoint);
-    std::cout.precision(5);
+    std::cout.precision(k);
     
 >**Example**
 >   ```
