@@ -1,0 +1,32 @@
+/* brute force
+
+#include <iostream>
+#include <string>
+using namespace std;
+void swap(int* a, int*b) {
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+}
+int main() {
+	string N;
+	int iter;
+	int Ni, Nj;
+	cin >> N >> iter;
+	for (int i = 0; i < iter; i++) {
+		cin >> Ni >> Nj;
+		if (Ni > Nj) swap(&Ni, &Nj);
+		bool flag = true;
+		for (int j = Ni; j < Nj; j++) {
+			if (N[j] != N[j + 1]) {
+				flag = false;
+				break;
+			}
+		}
+		if (flag) cout << "Yes" << endl;
+		else cout << "No" << endl;
+	}
+	return 0;
+}
+
+*/
