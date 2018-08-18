@@ -30,3 +30,30 @@ int main() {
 }
 
 */
+
+#include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
+int main() {
+	string N;
+	int iter;
+	int Ni, Nj;
+	vector<int> v;
+	v.push_back(0);
+	cin >> N >> iter;
+	for (int i = 0; i < N.length(); i++) {
+		if (N[i] == N[i + 1]) {
+			v.push_back(v[i]);
+		}
+		else {
+			v.push_back(v[i] + 1);
+		}
+	}
+	for (int i = 0; i < iter; i++) {
+		cin >> Ni >> Nj;
+		if (v[Ni]==v[Nj]) cout << "Yes" << endl;
+		else cout << "No" << endl;
+	}
+	return 0;
+}
