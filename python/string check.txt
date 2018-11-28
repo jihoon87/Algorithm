@@ -1,0 +1,13 @@
+# 전체가 같은 character 속성을 가지고 있는지 체크
+str.isalnum() :  This method checks if all the characters of a string are alphanumeric (a-z, A-Z and 0-9).
+str.isalpha() : This method checks if all the characters of a string are alphabetical (a-z and A-Z).
+str.isdigit() : This method checks if all the characters of a string are digits (0-9).
+str.islower() : This method checks if all the characters of a string are lowercase characters (a-z).
+str.isupper() : This method checks if all the characters of a string are uppercase characters (A-Z).
+
+# 하나라도 character 속성을 가지고 있는지 체크
+any([char.isalnum() for char in str])
+any([char.isalpha() for char in str])
+any([char.isdigit() for char in str])
+any([char.islower() for char in str])
+any([char.isupper() for char in str])
