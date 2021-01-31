@@ -2,6 +2,5 @@
 
 * [Welcome to GitHub Pages](README.md)
 * [cpp](cpp/README.md)
-  * [ggggg](cpp/ggggg.md)
   * [cout 활용법](cpp/01_cout.md)
 
